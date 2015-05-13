@@ -117,44 +117,44 @@ public class Sudoku9 extends javax.swing.JFrame {
         pos47 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(0, 0, 200));
+        setBackground(new java.awt.Color(0, 125, 0));
 
-        pos76.setBackground(new java.awt.Color(100, 100, 100));
+        pos76.setBackground(new java.awt.Color(255, 102, 102));
         pos76.setForeground(new java.awt.Color(255, 255, 255));
         pos76.setText("0");
         pos76.setAlignmentX(0.6F);
         pos76.setCaretColor(new java.awt.Color(255, 255, 255));
         pos76.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos75.setBackground(new java.awt.Color(100, 100, 100));
+        pos75.setBackground(new java.awt.Color(255, 102, 102));
         pos75.setForeground(new java.awt.Color(255, 255, 255));
         pos75.setText("0");
         pos75.setAlignmentX(0.6F);
         pos75.setCaretColor(new java.awt.Color(255, 255, 255));
         pos75.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos74.setBackground(new java.awt.Color(100, 100, 100));
+        pos74.setBackground(new java.awt.Color(255, 102, 102));
         pos74.setForeground(new java.awt.Color(255, 255, 255));
         pos74.setText("0");
         pos74.setAlignmentX(0.6F);
         pos74.setCaretColor(new java.awt.Color(255, 255, 255));
         pos74.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos32.setBackground(new java.awt.Color(100, 100, 100));
+        pos32.setBackground(new java.awt.Color(255, 102, 102));
         pos32.setForeground(new java.awt.Color(255, 255, 255));
         pos32.setText("0");
         pos32.setAlignmentX(0.6F);
         pos32.setCaretColor(new java.awt.Color(255, 255, 255));
         pos32.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos33.setBackground(new java.awt.Color(100, 100, 100));
+        pos33.setBackground(new java.awt.Color(255, 102, 102));
         pos33.setForeground(new java.awt.Color(255, 255, 255));
         pos33.setText("0");
         pos33.setAlignmentX(0.6F);
         pos33.setCaretColor(new java.awt.Color(255, 255, 255));
         pos33.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos30.setBackground(new java.awt.Color(100, 100, 100));
+        pos30.setBackground(new java.awt.Color(255, 102, 102));
         pos30.setForeground(new java.awt.Color(255, 255, 255));
         pos30.setText("0");
         pos30.setAlignmentX(0.6F);
@@ -166,14 +166,14 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos31.setBackground(new java.awt.Color(100, 100, 100));
+        pos31.setBackground(new java.awt.Color(255, 102, 102));
         pos31.setForeground(new java.awt.Color(255, 255, 255));
         pos31.setText("0");
         pos31.setAlignmentX(0.6F);
         pos31.setCaretColor(new java.awt.Color(255, 255, 255));
         pos31.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos36.setBackground(new java.awt.Color(100, 100, 100));
+        pos36.setBackground(new java.awt.Color(255, 102, 102));
         pos36.setForeground(new java.awt.Color(255, 255, 255));
         pos36.setText("0");
         pos36.setAlignmentX(0.6F);
@@ -185,7 +185,7 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos34.setBackground(new java.awt.Color(100, 100, 100));
+        pos34.setBackground(new java.awt.Color(255, 102, 102));
         pos34.setForeground(new java.awt.Color(255, 255, 255));
         pos34.setText("0");
         pos34.setAlignmentX(0.6F);
@@ -197,7 +197,7 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos35.setBackground(new java.awt.Color(100, 100, 100));
+        pos35.setBackground(new java.awt.Color(255, 102, 102));
         pos35.setForeground(new java.awt.Color(255, 255, 255));
         pos35.setText("0");
         pos35.setAlignmentX(0.6F);
@@ -209,98 +209,98 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos40.setBackground(new java.awt.Color(100, 100, 100));
+        pos40.setBackground(new java.awt.Color(255, 102, 102));
         pos40.setForeground(new java.awt.Color(255, 255, 255));
         pos40.setText("0");
         pos40.setAlignmentX(0.6F);
         pos40.setCaretColor(new java.awt.Color(255, 255, 255));
         pos40.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos39.setBackground(new java.awt.Color(100, 100, 100));
+        pos39.setBackground(new java.awt.Color(255, 102, 102));
         pos39.setForeground(new java.awt.Color(255, 255, 255));
         pos39.setText("0");
         pos39.setAlignmentX(0.6F);
         pos39.setCaretColor(new java.awt.Color(255, 255, 255));
         pos39.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos38.setBackground(new java.awt.Color(100, 100, 100));
+        pos38.setBackground(new java.awt.Color(255, 102, 102));
         pos38.setForeground(new java.awt.Color(255, 255, 255));
         pos38.setText("0");
         pos38.setAlignmentX(0.6F);
         pos38.setCaretColor(new java.awt.Color(255, 255, 255));
         pos38.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos37.setBackground(new java.awt.Color(100, 100, 100));
+        pos37.setBackground(new java.awt.Color(255, 102, 102));
         pos37.setForeground(new java.awt.Color(255, 255, 255));
         pos37.setText("0");
         pos37.setAlignmentX(0.6F);
         pos37.setCaretColor(new java.awt.Color(255, 255, 255));
         pos37.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos79.setBackground(new java.awt.Color(100, 100, 100));
+        pos79.setBackground(new java.awt.Color(255, 102, 102));
         pos79.setForeground(new java.awt.Color(255, 255, 255));
         pos79.setText("0");
         pos79.setAlignmentX(0.6F);
         pos79.setCaretColor(new java.awt.Color(255, 255, 255));
         pos79.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos80.setBackground(new java.awt.Color(100, 100, 100));
+        pos80.setBackground(new java.awt.Color(255, 102, 102));
         pos80.setForeground(new java.awt.Color(255, 255, 255));
         pos80.setText("0");
         pos80.setAlignmentX(0.6F);
         pos80.setCaretColor(new java.awt.Color(255, 255, 255));
         pos80.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos77.setBackground(new java.awt.Color(100, 100, 100));
+        pos77.setBackground(new java.awt.Color(255, 102, 102));
         pos77.setForeground(new java.awt.Color(255, 255, 255));
         pos77.setText("0");
         pos77.setAlignmentX(0.6F);
         pos77.setCaretColor(new java.awt.Color(255, 255, 255));
         pos77.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos78.setBackground(new java.awt.Color(100, 100, 100));
+        pos78.setBackground(new java.awt.Color(255, 102, 102));
         pos78.setForeground(new java.awt.Color(255, 255, 255));
         pos78.setText("0");
         pos78.setAlignmentX(0.6F);
         pos78.setCaretColor(new java.awt.Color(255, 255, 255));
         pos78.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos81.setBackground(new java.awt.Color(100, 100, 100));
+        pos81.setBackground(new java.awt.Color(255, 102, 102));
         pos81.setForeground(new java.awt.Color(255, 255, 255));
         pos81.setText("0");
         pos81.setAlignmentX(0.6F);
         pos81.setCaretColor(new java.awt.Color(255, 255, 255));
         pos81.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos64.setBackground(new java.awt.Color(100, 100, 100));
+        pos64.setBackground(new java.awt.Color(255, 102, 102));
         pos64.setForeground(new java.awt.Color(255, 255, 255));
         pos64.setText("0");
         pos64.setAlignmentX(0.6F);
         pos64.setCaretColor(new java.awt.Color(255, 255, 255));
         pos64.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos63.setBackground(new java.awt.Color(100, 100, 100));
+        pos63.setBackground(new java.awt.Color(255, 102, 102));
         pos63.setForeground(new java.awt.Color(255, 255, 255));
         pos63.setText("0");
         pos63.setAlignmentX(0.6F);
         pos63.setCaretColor(new java.awt.Color(255, 255, 255));
         pos63.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos66.setBackground(new java.awt.Color(100, 100, 100));
+        pos66.setBackground(new java.awt.Color(255, 102, 102));
         pos66.setForeground(new java.awt.Color(255, 255, 255));
         pos66.setText("0");
         pos66.setAlignmentX(0.6F);
         pos66.setCaretColor(new java.awt.Color(255, 255, 255));
         pos66.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos65.setBackground(new java.awt.Color(100, 100, 100));
+        pos65.setBackground(new java.awt.Color(255, 102, 102));
         pos65.setForeground(new java.awt.Color(255, 255, 255));
         pos65.setText("0");
         pos65.setAlignmentX(0.6F);
         pos65.setCaretColor(new java.awt.Color(255, 255, 255));
         pos65.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos19.setBackground(new java.awt.Color(100, 100, 100));
+        pos19.setBackground(new java.awt.Color(255, 102, 102));
         pos19.setForeground(new java.awt.Color(255, 255, 255));
         pos19.setText("0");
         pos19.setAlignmentX(0.6F);
@@ -312,21 +312,21 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos20.setBackground(new java.awt.Color(100, 100, 100));
+        pos20.setBackground(new java.awt.Color(255, 102, 102));
         pos20.setForeground(new java.awt.Color(255, 255, 255));
         pos20.setText("0");
         pos20.setAlignmentX(0.6F);
         pos20.setCaretColor(new java.awt.Color(255, 255, 255));
         pos20.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos21.setBackground(new java.awt.Color(100, 100, 100));
+        pos21.setBackground(new java.awt.Color(255, 102, 102));
         pos21.setForeground(new java.awt.Color(255, 255, 255));
         pos21.setText("0");
         pos21.setAlignmentX(0.6F);
         pos21.setCaretColor(new java.awt.Color(255, 255, 255));
         pos21.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos22.setBackground(new java.awt.Color(100, 100, 100));
+        pos22.setBackground(new java.awt.Color(255, 102, 102));
         pos22.setForeground(new java.awt.Color(255, 255, 255));
         pos22.setText("0");
         pos22.setAlignmentX(0.6F);
@@ -338,21 +338,21 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos23.setBackground(new java.awt.Color(100, 100, 100));
+        pos23.setBackground(new java.awt.Color(255, 102, 102));
         pos23.setForeground(new java.awt.Color(255, 255, 255));
         pos23.setText("0");
         pos23.setAlignmentX(0.6F);
         pos23.setCaretColor(new java.awt.Color(255, 255, 255));
         pos23.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos24.setBackground(new java.awt.Color(100, 100, 100));
+        pos24.setBackground(new java.awt.Color(255, 102, 102));
         pos24.setForeground(new java.awt.Color(255, 255, 255));
         pos24.setText("0");
         pos24.setAlignmentX(0.6F);
         pos24.setCaretColor(new java.awt.Color(255, 255, 255));
         pos24.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos25.setBackground(new java.awt.Color(100, 100, 100));
+        pos25.setBackground(new java.awt.Color(255, 102, 102));
         pos25.setForeground(new java.awt.Color(255, 255, 255));
         pos25.setText("0");
         pos25.setAlignmentX(0.6F);
@@ -364,7 +364,7 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos26.setBackground(new java.awt.Color(100, 100, 100));
+        pos26.setBackground(new java.awt.Color(255, 102, 102));
         pos26.setForeground(new java.awt.Color(255, 255, 255));
         pos26.setText("0");
         pos26.setAlignmentX(0.6F);
@@ -390,14 +390,14 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos4.setBackground(new java.awt.Color(100, 100, 100));
+        pos4.setBackground(new java.awt.Color(255, 102, 102));
         pos4.setForeground(new java.awt.Color(255, 255, 255));
         pos4.setText("0");
         pos4.setAlignmentX(0.6F);
         pos4.setCaretColor(new java.awt.Color(255, 255, 255));
         pos4.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos27.setBackground(new java.awt.Color(100, 100, 100));
+        pos27.setBackground(new java.awt.Color(255, 102, 102));
         pos27.setForeground(new java.awt.Color(255, 255, 255));
         pos27.setText("0");
         pos27.setAlignmentX(0.6F);
@@ -409,63 +409,63 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos3.setBackground(new java.awt.Color(100, 100, 100));
+        pos3.setBackground(new java.awt.Color(255, 102, 102));
         pos3.setForeground(new java.awt.Color(255, 255, 255));
         pos3.setText("0");
         pos3.setAlignmentX(0.6F);
         pos3.setCaretColor(new java.awt.Color(255, 255, 255));
         pos3.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos2.setBackground(new java.awt.Color(100, 100, 100));
+        pos2.setBackground(new java.awt.Color(255, 102, 102));
         pos2.setForeground(new java.awt.Color(255, 255, 255));
         pos2.setText("0");
         pos2.setAlignmentX(0.6F);
         pos2.setCaretColor(new java.awt.Color(255, 255, 255));
         pos2.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos29.setBackground(new java.awt.Color(100, 100, 100));
+        pos29.setBackground(new java.awt.Color(255, 102, 102));
         pos29.setForeground(new java.awt.Color(255, 255, 255));
         pos29.setText("0");
         pos29.setAlignmentX(0.6F);
         pos29.setCaretColor(new java.awt.Color(255, 255, 255));
         pos29.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos1.setBackground(new java.awt.Color(100, 100, 100));
+        pos1.setBackground(new java.awt.Color(255, 102, 102));
         pos1.setForeground(new java.awt.Color(255, 255, 255));
         pos1.setText("0");
         pos1.setAlignmentX(0.6F);
         pos1.setCaretColor(new java.awt.Color(255, 255, 255));
         pos1.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos28.setBackground(new java.awt.Color(100, 100, 100));
+        pos28.setBackground(new java.awt.Color(255, 102, 102));
         pos28.setForeground(new java.awt.Color(255, 255, 255));
         pos28.setText("0");
         pos28.setAlignmentX(0.6F);
         pos28.setCaretColor(new java.awt.Color(255, 255, 255));
         pos28.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos67.setBackground(new java.awt.Color(100, 100, 100));
+        pos67.setBackground(new java.awt.Color(255, 102, 102));
         pos67.setForeground(new java.awt.Color(255, 255, 255));
         pos67.setText("0");
         pos67.setAlignmentX(0.6F);
         pos67.setCaretColor(new java.awt.Color(255, 255, 255));
         pos67.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos68.setBackground(new java.awt.Color(100, 100, 100));
+        pos68.setBackground(new java.awt.Color(255, 102, 102));
         pos68.setForeground(new java.awt.Color(255, 255, 255));
         pos68.setText("0");
         pos68.setAlignmentX(0.6F);
         pos68.setCaretColor(new java.awt.Color(255, 255, 255));
         pos68.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos6.setBackground(new java.awt.Color(100, 100, 100));
+        pos6.setBackground(new java.awt.Color(255, 102, 102));
         pos6.setForeground(new java.awt.Color(255, 255, 255));
         pos6.setText("0");
         pos6.setAlignmentX(0.6F);
         pos6.setCaretColor(new java.awt.Color(255, 255, 255));
         pos6.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos69.setBackground(new java.awt.Color(100, 100, 100));
+        pos69.setBackground(new java.awt.Color(255, 102, 102));
         pos69.setForeground(new java.awt.Color(255, 255, 255));
         pos69.setText("0");
         pos69.setAlignmentX(0.6F);
@@ -477,56 +477,56 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos5.setBackground(new java.awt.Color(100, 100, 100));
+        pos5.setBackground(new java.awt.Color(255, 102, 102));
         pos5.setForeground(new java.awt.Color(255, 255, 255));
         pos5.setText("0");
         pos5.setAlignmentX(0.6F);
         pos5.setCaretColor(new java.awt.Color(255, 255, 255));
         pos5.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos70.setBackground(new java.awt.Color(100, 100, 100));
+        pos70.setBackground(new java.awt.Color(255, 102, 102));
         pos70.setForeground(new java.awt.Color(255, 255, 255));
         pos70.setText("0");
         pos70.setAlignmentX(0.6F);
         pos70.setCaretColor(new java.awt.Color(255, 255, 255));
         pos70.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos71.setBackground(new java.awt.Color(100, 100, 100));
+        pos71.setBackground(new java.awt.Color(255, 102, 102));
         pos71.setForeground(new java.awt.Color(255, 255, 255));
         pos71.setText("0");
         pos71.setAlignmentX(0.6F);
         pos71.setCaretColor(new java.awt.Color(255, 255, 255));
         pos71.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos72.setBackground(new java.awt.Color(100, 100, 100));
+        pos72.setBackground(new java.awt.Color(255, 102, 102));
         pos72.setForeground(new java.awt.Color(255, 255, 255));
         pos72.setText("0");
         pos72.setAlignmentX(0.6F);
         pos72.setCaretColor(new java.awt.Color(255, 255, 255));
         pos72.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos73.setBackground(new java.awt.Color(100, 100, 100));
+        pos73.setBackground(new java.awt.Color(255, 102, 102));
         pos73.setForeground(new java.awt.Color(255, 255, 255));
         pos73.setText("0");
         pos73.setAlignmentX(0.6F);
         pos73.setCaretColor(new java.awt.Color(255, 255, 255));
         pos73.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos56.setBackground(new java.awt.Color(100, 100, 100));
+        pos56.setBackground(new java.awt.Color(255, 102, 102));
         pos56.setForeground(new java.awt.Color(255, 255, 255));
         pos56.setText("0");
         pos56.setAlignmentX(0.6F);
         pos56.setCaretColor(new java.awt.Color(255, 255, 255));
         pos56.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos55.setBackground(new java.awt.Color(100, 100, 100));
+        pos55.setBackground(new java.awt.Color(255, 102, 102));
         pos55.setForeground(new java.awt.Color(255, 255, 255));
         pos55.setText("0");
         pos55.setAlignmentX(0.6F);
         pos55.setCaretColor(new java.awt.Color(255, 255, 255));
         pos55.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos54.setBackground(new java.awt.Color(100, 100, 100));
+        pos54.setBackground(new java.awt.Color(255, 102, 102));
         pos54.setForeground(new java.awt.Color(255, 255, 255));
         pos54.setText("0");
         pos54.setAlignmentX(0.6F);
@@ -538,210 +538,210 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos53.setBackground(new java.awt.Color(100, 100, 100));
+        pos53.setBackground(new java.awt.Color(255, 102, 102));
         pos53.setForeground(new java.awt.Color(255, 255, 255));
         pos53.setText("0");
         pos53.setAlignmentX(0.6F);
         pos53.setCaretColor(new java.awt.Color(255, 255, 255));
         pos53.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos16.setBackground(new java.awt.Color(100, 100, 100));
+        pos16.setBackground(new java.awt.Color(255, 102, 102));
         pos16.setForeground(new java.awt.Color(255, 255, 255));
         pos16.setText("0");
         pos16.setAlignmentX(0.6F);
         pos16.setCaretColor(new java.awt.Color(255, 255, 255));
         pos16.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos52.setBackground(new java.awt.Color(100, 100, 100));
+        pos52.setBackground(new java.awt.Color(255, 102, 102));
         pos52.setForeground(new java.awt.Color(255, 255, 255));
         pos52.setText("0");
         pos52.setAlignmentX(0.6F);
         pos52.setCaretColor(new java.awt.Color(255, 255, 255));
         pos52.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos14.setBackground(new java.awt.Color(100, 100, 100));
+        pos14.setBackground(new java.awt.Color(255, 102, 102));
         pos14.setForeground(new java.awt.Color(255, 255, 255));
         pos14.setText("0");
         pos14.setAlignmentX(0.6F);
         pos14.setCaretColor(new java.awt.Color(255, 255, 255));
         pos14.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos15.setBackground(new java.awt.Color(100, 100, 100));
+        pos15.setBackground(new java.awt.Color(255, 102, 102));
         pos15.setForeground(new java.awt.Color(255, 255, 255));
         pos15.setText("0");
         pos15.setAlignmentX(0.6F);
         pos15.setCaretColor(new java.awt.Color(255, 255, 255));
         pos15.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos12.setBackground(new java.awt.Color(100, 100, 100));
+        pos12.setBackground(new java.awt.Color(255, 102, 102));
         pos12.setForeground(new java.awt.Color(255, 255, 255));
         pos12.setText("0");
         pos12.setAlignmentX(0.6F);
         pos12.setCaretColor(new java.awt.Color(255, 255, 255));
         pos12.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos13.setBackground(new java.awt.Color(100, 100, 100));
+        pos13.setBackground(new java.awt.Color(255, 102, 102));
         pos13.setForeground(new java.awt.Color(255, 255, 255));
         pos13.setText("0");
         pos13.setAlignmentX(0.6F);
         pos13.setCaretColor(new java.awt.Color(255, 255, 255));
         pos13.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos10.setBackground(new java.awt.Color(100, 100, 100));
+        pos10.setBackground(new java.awt.Color(255, 102, 102));
         pos10.setForeground(new java.awt.Color(255, 255, 255));
         pos10.setText("0");
         pos10.setAlignmentX(0.6F);
         pos10.setCaretColor(new java.awt.Color(255, 255, 255));
         pos10.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos11.setBackground(new java.awt.Color(100, 100, 100));
+        pos11.setBackground(new java.awt.Color(255, 102, 102));
         pos11.setForeground(new java.awt.Color(255, 255, 255));
         pos11.setText("0");
         pos11.setAlignmentX(0.6F);
         pos11.setCaretColor(new java.awt.Color(255, 255, 255));
         pos11.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos8.setBackground(new java.awt.Color(100, 100, 100));
+        pos8.setBackground(new java.awt.Color(255, 102, 102));
         pos8.setForeground(new java.awt.Color(255, 255, 255));
         pos8.setText("0");
         pos8.setAlignmentX(0.6F);
         pos8.setCaretColor(new java.awt.Color(255, 255, 255));
         pos8.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos9.setBackground(new java.awt.Color(100, 100, 100));
+        pos9.setBackground(new java.awt.Color(255, 102, 102));
         pos9.setForeground(new java.awt.Color(255, 255, 255));
         pos9.setText("0");
         pos9.setAlignmentX(0.6F);
         pos9.setCaretColor(new java.awt.Color(255, 255, 255));
         pos9.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos18.setBackground(new java.awt.Color(100, 100, 100));
+        pos18.setBackground(new java.awt.Color(255, 102, 102));
         pos18.setForeground(new java.awt.Color(255, 255, 255));
         pos18.setText("0");
         pos18.setAlignmentX(0.6F);
         pos18.setCaretColor(new java.awt.Color(255, 255, 255));
         pos18.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos17.setBackground(new java.awt.Color(100, 100, 100));
+        pos17.setBackground(new java.awt.Color(255, 102, 102));
         pos17.setForeground(new java.awt.Color(255, 255, 255));
         pos17.setText("0");
         pos17.setAlignmentX(0.6F);
         pos17.setCaretColor(new java.awt.Color(255, 255, 255));
         pos17.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos61.setBackground(new java.awt.Color(100, 100, 100));
+        pos61.setBackground(new java.awt.Color(255, 102, 102));
         pos61.setForeground(new java.awt.Color(255, 255, 255));
         pos61.setText("0");
         pos61.setAlignmentX(0.6F);
         pos61.setCaretColor(new java.awt.Color(255, 255, 255));
         pos61.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos62.setBackground(new java.awt.Color(100, 100, 100));
+        pos62.setBackground(new java.awt.Color(255, 102, 102));
         pos62.setForeground(new java.awt.Color(255, 255, 255));
         pos62.setText("0");
         pos62.setAlignmentX(0.6F);
         pos62.setCaretColor(new java.awt.Color(255, 255, 255));
         pos62.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos59.setBackground(new java.awt.Color(100, 100, 100));
+        pos59.setBackground(new java.awt.Color(255, 102, 102));
         pos59.setForeground(new java.awt.Color(255, 255, 255));
         pos59.setText("0");
         pos59.setAlignmentX(0.6F);
         pos59.setCaretColor(new java.awt.Color(255, 255, 255));
         pos59.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos60.setBackground(new java.awt.Color(100, 100, 100));
+        pos60.setBackground(new java.awt.Color(255, 102, 102));
         pos60.setForeground(new java.awt.Color(255, 255, 255));
         pos60.setText("0");
         pos60.setAlignmentX(0.6F);
         pos60.setCaretColor(new java.awt.Color(255, 255, 255));
         pos60.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos57.setBackground(new java.awt.Color(100, 100, 100));
+        pos57.setBackground(new java.awt.Color(255, 102, 102));
         pos57.setForeground(new java.awt.Color(255, 255, 255));
         pos57.setText("0");
         pos57.setAlignmentX(0.6F);
         pos57.setCaretColor(new java.awt.Color(255, 255, 255));
         pos57.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos58.setBackground(new java.awt.Color(100, 100, 100));
+        pos58.setBackground(new java.awt.Color(255, 102, 102));
         pos58.setForeground(new java.awt.Color(255, 255, 255));
         pos58.setText("0");
         pos58.setAlignmentX(0.6F);
         pos58.setCaretColor(new java.awt.Color(255, 255, 255));
         pos58.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos46.setBackground(new java.awt.Color(100, 100, 100));
+        pos46.setBackground(new java.awt.Color(255, 102, 102));
         pos46.setForeground(new java.awt.Color(255, 255, 255));
         pos46.setText("0");
         pos46.setAlignmentX(0.6F);
         pos46.setCaretColor(new java.awt.Color(255, 255, 255));
         pos46.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos45.setBackground(new java.awt.Color(100, 100, 100));
+        pos45.setBackground(new java.awt.Color(255, 102, 102));
         pos45.setForeground(new java.awt.Color(255, 255, 255));
         pos45.setText("0");
         pos45.setAlignmentX(0.6F);
         pos45.setCaretColor(new java.awt.Color(255, 255, 255));
         pos45.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos42.setBackground(new java.awt.Color(100, 100, 100));
+        pos42.setBackground(new java.awt.Color(255, 102, 102));
         pos42.setForeground(new java.awt.Color(255, 255, 255));
         pos42.setText("0");
         pos42.setAlignmentX(0.6F);
         pos42.setCaretColor(new java.awt.Color(255, 255, 255));
         pos42.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos41.setBackground(new java.awt.Color(100, 100, 100));
+        pos41.setBackground(new java.awt.Color(255, 102, 102));
         pos41.setForeground(new java.awt.Color(255, 255, 255));
         pos41.setText("0");
         pos41.setAlignmentX(0.6F);
         pos41.setCaretColor(new java.awt.Color(255, 255, 255));
         pos41.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos44.setBackground(new java.awt.Color(100, 100, 100));
+        pos44.setBackground(new java.awt.Color(255, 102, 102));
         pos44.setForeground(new java.awt.Color(255, 255, 255));
         pos44.setText("0");
         pos44.setAlignmentX(0.6F);
         pos44.setCaretColor(new java.awt.Color(255, 255, 255));
         pos44.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos43.setBackground(new java.awt.Color(100, 100, 100));
+        pos43.setBackground(new java.awt.Color(255, 102, 102));
         pos43.setForeground(new java.awt.Color(255, 255, 255));
         pos43.setText("0");
         pos43.setAlignmentX(0.6F);
         pos43.setCaretColor(new java.awt.Color(255, 255, 255));
         pos43.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos7.setBackground(new java.awt.Color(100, 100, 100));
+        pos7.setBackground(new java.awt.Color(255, 102, 102));
         pos7.setForeground(new java.awt.Color(255, 255, 255));
         pos7.setText("0");
         pos7.setAlignmentX(0.6F);
         pos7.setCaretColor(new java.awt.Color(255, 255, 255));
         pos7.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos48.setBackground(new java.awt.Color(100, 100, 100));
+        pos48.setBackground(new java.awt.Color(255, 102, 102));
         pos48.setForeground(new java.awt.Color(255, 255, 255));
         pos48.setText("0");
         pos48.setAlignmentX(0.6F);
         pos48.setCaretColor(new java.awt.Color(255, 255, 255));
         pos48.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos49.setBackground(new java.awt.Color(100, 100, 100));
+        pos49.setBackground(new java.awt.Color(255, 102, 102));
         pos49.setForeground(new java.awt.Color(255, 255, 255));
         pos49.setText("0");
         pos49.setAlignmentX(0.6F);
         pos49.setCaretColor(new java.awt.Color(255, 255, 255));
         pos49.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos50.setBackground(new java.awt.Color(100, 100, 100));
+        pos50.setBackground(new java.awt.Color(255, 102, 102));
         pos50.setForeground(new java.awt.Color(255, 255, 255));
         pos50.setText("0");
         pos50.setAlignmentX(0.6F);
         pos50.setCaretColor(new java.awt.Color(255, 255, 255));
         pos50.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos51.setBackground(new java.awt.Color(100, 100, 100));
+        pos51.setBackground(new java.awt.Color(255, 102, 102));
         pos51.setForeground(new java.awt.Color(255, 255, 255));
         pos51.setText("0");
         pos51.setAlignmentX(0.6F);
@@ -753,7 +753,7 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos47.setBackground(new java.awt.Color(100, 100, 100));
+        pos47.setBackground(new java.awt.Color(255, 102, 102));
         pos47.setForeground(new java.awt.Color(255, 255, 255));
         pos47.setText("0");
         pos47.setAlignmentX(0.6F);

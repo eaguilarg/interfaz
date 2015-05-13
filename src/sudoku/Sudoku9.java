@@ -6,8 +6,9 @@ package sudoku;
 
 */
 import java.util.*;
+import javax.swing.JOptionPane;
 import sudoku.Sudoku1;
-package sudoku;
+
 
 /**
  *
@@ -116,29 +117,48 @@ public class Sudoku9 extends javax.swing.JFrame {
         pos47 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 0, 200));
 
-        pos76.setText("76");
+        pos76.setBackground(new java.awt.Color(100, 100, 100));
+        pos76.setForeground(new java.awt.Color(255, 255, 255));
+        pos76.setText("0");
         pos76.setAlignmentX(0.6F);
+        pos76.setCaretColor(new java.awt.Color(255, 255, 255));
         pos76.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos75.setText("75");
+        pos75.setBackground(new java.awt.Color(100, 100, 100));
+        pos75.setForeground(new java.awt.Color(255, 255, 255));
+        pos75.setText("0");
         pos75.setAlignmentX(0.6F);
+        pos75.setCaretColor(new java.awt.Color(255, 255, 255));
         pos75.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos74.setText("74");
+        pos74.setBackground(new java.awt.Color(100, 100, 100));
+        pos74.setForeground(new java.awt.Color(255, 255, 255));
+        pos74.setText("0");
         pos74.setAlignmentX(0.6F);
+        pos74.setCaretColor(new java.awt.Color(255, 255, 255));
         pos74.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos32.setText("32");
+        pos32.setBackground(new java.awt.Color(100, 100, 100));
+        pos32.setForeground(new java.awt.Color(255, 255, 255));
+        pos32.setText("0");
         pos32.setAlignmentX(0.6F);
+        pos32.setCaretColor(new java.awt.Color(255, 255, 255));
         pos32.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos33.setText("33");
+        pos33.setBackground(new java.awt.Color(100, 100, 100));
+        pos33.setForeground(new java.awt.Color(255, 255, 255));
+        pos33.setText("0");
         pos33.setAlignmentX(0.6F);
+        pos33.setCaretColor(new java.awt.Color(255, 255, 255));
         pos33.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos30.setText("30");
+        pos30.setBackground(new java.awt.Color(100, 100, 100));
+        pos30.setForeground(new java.awt.Color(255, 255, 255));
+        pos30.setText("0");
         pos30.setAlignmentX(0.6F);
+        pos30.setCaretColor(new java.awt.Color(255, 255, 255));
         pos30.setMaximumSize(new java.awt.Dimension(1, 1));
         pos30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -146,12 +166,18 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos31.setText("31");
+        pos31.setBackground(new java.awt.Color(100, 100, 100));
+        pos31.setForeground(new java.awt.Color(255, 255, 255));
+        pos31.setText("0");
         pos31.setAlignmentX(0.6F);
+        pos31.setCaretColor(new java.awt.Color(255, 255, 255));
         pos31.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos36.setText("36");
+        pos36.setBackground(new java.awt.Color(100, 100, 100));
+        pos36.setForeground(new java.awt.Color(255, 255, 255));
+        pos36.setText("0");
         pos36.setAlignmentX(0.6F);
+        pos36.setCaretColor(new java.awt.Color(255, 255, 255));
         pos36.setMaximumSize(new java.awt.Dimension(1, 1));
         pos36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -159,8 +185,11 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos34.setText("34");
+        pos34.setBackground(new java.awt.Color(100, 100, 100));
+        pos34.setForeground(new java.awt.Color(255, 255, 255));
+        pos34.setText("0");
         pos34.setAlignmentX(0.6F);
+        pos34.setCaretColor(new java.awt.Color(255, 255, 255));
         pos34.setMaximumSize(new java.awt.Dimension(1, 1));
         pos34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -168,8 +197,11 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos35.setText("35");
+        pos35.setBackground(new java.awt.Color(100, 100, 100));
+        pos35.setForeground(new java.awt.Color(255, 255, 255));
+        pos35.setText("0");
         pos35.setAlignmentX(0.6F);
+        pos35.setCaretColor(new java.awt.Color(255, 255, 255));
         pos35.setMaximumSize(new java.awt.Dimension(1, 1));
         pos35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -177,60 +209,102 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos40.setText("40");
+        pos40.setBackground(new java.awt.Color(100, 100, 100));
+        pos40.setForeground(new java.awt.Color(255, 255, 255));
+        pos40.setText("0");
         pos40.setAlignmentX(0.6F);
+        pos40.setCaretColor(new java.awt.Color(255, 255, 255));
         pos40.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos39.setText("39");
+        pos39.setBackground(new java.awt.Color(100, 100, 100));
+        pos39.setForeground(new java.awt.Color(255, 255, 255));
+        pos39.setText("0");
         pos39.setAlignmentX(0.6F);
+        pos39.setCaretColor(new java.awt.Color(255, 255, 255));
         pos39.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos38.setText("38");
+        pos38.setBackground(new java.awt.Color(100, 100, 100));
+        pos38.setForeground(new java.awt.Color(255, 255, 255));
+        pos38.setText("0");
         pos38.setAlignmentX(0.6F);
+        pos38.setCaretColor(new java.awt.Color(255, 255, 255));
         pos38.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos37.setText("37");
+        pos37.setBackground(new java.awt.Color(100, 100, 100));
+        pos37.setForeground(new java.awt.Color(255, 255, 255));
+        pos37.setText("0");
         pos37.setAlignmentX(0.6F);
+        pos37.setCaretColor(new java.awt.Color(255, 255, 255));
         pos37.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos79.setText("79");
+        pos79.setBackground(new java.awt.Color(100, 100, 100));
+        pos79.setForeground(new java.awt.Color(255, 255, 255));
+        pos79.setText("0");
         pos79.setAlignmentX(0.6F);
+        pos79.setCaretColor(new java.awt.Color(255, 255, 255));
         pos79.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos80.setText("80");
+        pos80.setBackground(new java.awt.Color(100, 100, 100));
+        pos80.setForeground(new java.awt.Color(255, 255, 255));
+        pos80.setText("0");
         pos80.setAlignmentX(0.6F);
+        pos80.setCaretColor(new java.awt.Color(255, 255, 255));
         pos80.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos77.setText("77");
+        pos77.setBackground(new java.awt.Color(100, 100, 100));
+        pos77.setForeground(new java.awt.Color(255, 255, 255));
+        pos77.setText("0");
         pos77.setAlignmentX(0.6F);
+        pos77.setCaretColor(new java.awt.Color(255, 255, 255));
         pos77.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos78.setText("78");
+        pos78.setBackground(new java.awt.Color(100, 100, 100));
+        pos78.setForeground(new java.awt.Color(255, 255, 255));
+        pos78.setText("0");
         pos78.setAlignmentX(0.6F);
+        pos78.setCaretColor(new java.awt.Color(255, 255, 255));
         pos78.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos81.setText("81");
+        pos81.setBackground(new java.awt.Color(100, 100, 100));
+        pos81.setForeground(new java.awt.Color(255, 255, 255));
+        pos81.setText("0");
         pos81.setAlignmentX(0.6F);
+        pos81.setCaretColor(new java.awt.Color(255, 255, 255));
         pos81.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos64.setText("64");
+        pos64.setBackground(new java.awt.Color(100, 100, 100));
+        pos64.setForeground(new java.awt.Color(255, 255, 255));
+        pos64.setText("0");
         pos64.setAlignmentX(0.6F);
+        pos64.setCaretColor(new java.awt.Color(255, 255, 255));
         pos64.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos63.setText("63");
+        pos63.setBackground(new java.awt.Color(100, 100, 100));
+        pos63.setForeground(new java.awt.Color(255, 255, 255));
+        pos63.setText("0");
         pos63.setAlignmentX(0.6F);
+        pos63.setCaretColor(new java.awt.Color(255, 255, 255));
         pos63.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos66.setText("66");
+        pos66.setBackground(new java.awt.Color(100, 100, 100));
+        pos66.setForeground(new java.awt.Color(255, 255, 255));
+        pos66.setText("0");
         pos66.setAlignmentX(0.6F);
+        pos66.setCaretColor(new java.awt.Color(255, 255, 255));
         pos66.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos65.setText("65");
+        pos65.setBackground(new java.awt.Color(100, 100, 100));
+        pos65.setForeground(new java.awt.Color(255, 255, 255));
+        pos65.setText("0");
         pos65.setAlignmentX(0.6F);
+        pos65.setCaretColor(new java.awt.Color(255, 255, 255));
         pos65.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos19.setText("19");
+        pos19.setBackground(new java.awt.Color(100, 100, 100));
+        pos19.setForeground(new java.awt.Color(255, 255, 255));
+        pos19.setText("0");
         pos19.setAlignmentX(0.6F);
+        pos19.setCaretColor(new java.awt.Color(255, 255, 255));
         pos19.setMaximumSize(new java.awt.Dimension(1, 1));
         pos19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -238,16 +312,25 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos20.setText("20");
+        pos20.setBackground(new java.awt.Color(100, 100, 100));
+        pos20.setForeground(new java.awt.Color(255, 255, 255));
+        pos20.setText("0");
         pos20.setAlignmentX(0.6F);
+        pos20.setCaretColor(new java.awt.Color(255, 255, 255));
         pos20.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos21.setText("21");
+        pos21.setBackground(new java.awt.Color(100, 100, 100));
+        pos21.setForeground(new java.awt.Color(255, 255, 255));
+        pos21.setText("0");
         pos21.setAlignmentX(0.6F);
+        pos21.setCaretColor(new java.awt.Color(255, 255, 255));
         pos21.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos22.setText("22");
+        pos22.setBackground(new java.awt.Color(100, 100, 100));
+        pos22.setForeground(new java.awt.Color(255, 255, 255));
+        pos22.setText("0");
         pos22.setAlignmentX(0.6F);
+        pos22.setCaretColor(new java.awt.Color(255, 255, 255));
         pos22.setMaximumSize(new java.awt.Dimension(1, 1));
         pos22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -255,16 +338,25 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos23.setText("23");
+        pos23.setBackground(new java.awt.Color(100, 100, 100));
+        pos23.setForeground(new java.awt.Color(255, 255, 255));
+        pos23.setText("0");
         pos23.setAlignmentX(0.6F);
+        pos23.setCaretColor(new java.awt.Color(255, 255, 255));
         pos23.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos24.setText("24");
+        pos24.setBackground(new java.awt.Color(100, 100, 100));
+        pos24.setForeground(new java.awt.Color(255, 255, 255));
+        pos24.setText("0");
         pos24.setAlignmentX(0.6F);
+        pos24.setCaretColor(new java.awt.Color(255, 255, 255));
         pos24.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos25.setText("25");
+        pos25.setBackground(new java.awt.Color(100, 100, 100));
+        pos25.setForeground(new java.awt.Color(255, 255, 255));
+        pos25.setText("0");
         pos25.setAlignmentX(0.6F);
+        pos25.setCaretColor(new java.awt.Color(255, 255, 255));
         pos25.setMaximumSize(new java.awt.Dimension(1, 1));
         pos25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -272,8 +364,11 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos26.setText("26");
+        pos26.setBackground(new java.awt.Color(100, 100, 100));
+        pos26.setForeground(new java.awt.Color(255, 255, 255));
+        pos26.setText("0");
         pos26.setAlignmentX(0.6F);
+        pos26.setCaretColor(new java.awt.Color(255, 255, 255));
         pos26.setMaximumSize(new java.awt.Dimension(1, 1));
         pos26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -295,12 +390,18 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos4.setText("4");
+        pos4.setBackground(new java.awt.Color(100, 100, 100));
+        pos4.setForeground(new java.awt.Color(255, 255, 255));
+        pos4.setText("0");
         pos4.setAlignmentX(0.6F);
+        pos4.setCaretColor(new java.awt.Color(255, 255, 255));
         pos4.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos27.setText("27");
+        pos27.setBackground(new java.awt.Color(100, 100, 100));
+        pos27.setForeground(new java.awt.Color(255, 255, 255));
+        pos27.setText("0");
         pos27.setAlignmentX(0.6F);
+        pos27.setCaretColor(new java.awt.Color(255, 255, 255));
         pos27.setMaximumSize(new java.awt.Dimension(1, 1));
         pos27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -308,40 +409,67 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos3.setText("3");
+        pos3.setBackground(new java.awt.Color(100, 100, 100));
+        pos3.setForeground(new java.awt.Color(255, 255, 255));
+        pos3.setText("0");
         pos3.setAlignmentX(0.6F);
+        pos3.setCaretColor(new java.awt.Color(255, 255, 255));
         pos3.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos2.setText("2");
+        pos2.setBackground(new java.awt.Color(100, 100, 100));
+        pos2.setForeground(new java.awt.Color(255, 255, 255));
+        pos2.setText("0");
         pos2.setAlignmentX(0.6F);
+        pos2.setCaretColor(new java.awt.Color(255, 255, 255));
         pos2.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos29.setText("29");
+        pos29.setBackground(new java.awt.Color(100, 100, 100));
+        pos29.setForeground(new java.awt.Color(255, 255, 255));
+        pos29.setText("0");
         pos29.setAlignmentX(0.6F);
+        pos29.setCaretColor(new java.awt.Color(255, 255, 255));
         pos29.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos1.setText("1");
+        pos1.setBackground(new java.awt.Color(100, 100, 100));
+        pos1.setForeground(new java.awt.Color(255, 255, 255));
+        pos1.setText("0");
         pos1.setAlignmentX(0.6F);
+        pos1.setCaretColor(new java.awt.Color(255, 255, 255));
         pos1.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos28.setText("28");
+        pos28.setBackground(new java.awt.Color(100, 100, 100));
+        pos28.setForeground(new java.awt.Color(255, 255, 255));
+        pos28.setText("0");
         pos28.setAlignmentX(0.6F);
+        pos28.setCaretColor(new java.awt.Color(255, 255, 255));
         pos28.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos67.setText("67");
+        pos67.setBackground(new java.awt.Color(100, 100, 100));
+        pos67.setForeground(new java.awt.Color(255, 255, 255));
+        pos67.setText("0");
         pos67.setAlignmentX(0.6F);
+        pos67.setCaretColor(new java.awt.Color(255, 255, 255));
         pos67.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos68.setText("68");
+        pos68.setBackground(new java.awt.Color(100, 100, 100));
+        pos68.setForeground(new java.awt.Color(255, 255, 255));
+        pos68.setText("0");
         pos68.setAlignmentX(0.6F);
+        pos68.setCaretColor(new java.awt.Color(255, 255, 255));
         pos68.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos6.setText("6");
+        pos6.setBackground(new java.awt.Color(100, 100, 100));
+        pos6.setForeground(new java.awt.Color(255, 255, 255));
+        pos6.setText("0");
         pos6.setAlignmentX(0.6F);
+        pos6.setCaretColor(new java.awt.Color(255, 255, 255));
         pos6.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos69.setText("69");
+        pos69.setBackground(new java.awt.Color(100, 100, 100));
+        pos69.setForeground(new java.awt.Color(255, 255, 255));
+        pos69.setText("0");
         pos69.setAlignmentX(0.6F);
+        pos69.setCaretColor(new java.awt.Color(255, 255, 255));
         pos69.setMaximumSize(new java.awt.Dimension(1, 1));
         pos69.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -349,36 +477,60 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos5.setText("5");
+        pos5.setBackground(new java.awt.Color(100, 100, 100));
+        pos5.setForeground(new java.awt.Color(255, 255, 255));
+        pos5.setText("0");
         pos5.setAlignmentX(0.6F);
+        pos5.setCaretColor(new java.awt.Color(255, 255, 255));
         pos5.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos70.setText("70");
+        pos70.setBackground(new java.awt.Color(100, 100, 100));
+        pos70.setForeground(new java.awt.Color(255, 255, 255));
+        pos70.setText("0");
         pos70.setAlignmentX(0.6F);
+        pos70.setCaretColor(new java.awt.Color(255, 255, 255));
         pos70.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos71.setText("71");
+        pos71.setBackground(new java.awt.Color(100, 100, 100));
+        pos71.setForeground(new java.awt.Color(255, 255, 255));
+        pos71.setText("0");
         pos71.setAlignmentX(0.6F);
+        pos71.setCaretColor(new java.awt.Color(255, 255, 255));
         pos71.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos72.setText("72");
+        pos72.setBackground(new java.awt.Color(100, 100, 100));
+        pos72.setForeground(new java.awt.Color(255, 255, 255));
+        pos72.setText("0");
         pos72.setAlignmentX(0.6F);
+        pos72.setCaretColor(new java.awt.Color(255, 255, 255));
         pos72.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos73.setText("73");
+        pos73.setBackground(new java.awt.Color(100, 100, 100));
+        pos73.setForeground(new java.awt.Color(255, 255, 255));
+        pos73.setText("0");
         pos73.setAlignmentX(0.6F);
+        pos73.setCaretColor(new java.awt.Color(255, 255, 255));
         pos73.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos56.setText("56");
+        pos56.setBackground(new java.awt.Color(100, 100, 100));
+        pos56.setForeground(new java.awt.Color(255, 255, 255));
+        pos56.setText("0");
         pos56.setAlignmentX(0.6F);
+        pos56.setCaretColor(new java.awt.Color(255, 255, 255));
         pos56.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos55.setText("55");
+        pos55.setBackground(new java.awt.Color(100, 100, 100));
+        pos55.setForeground(new java.awt.Color(255, 255, 255));
+        pos55.setText("0");
         pos55.setAlignmentX(0.6F);
+        pos55.setCaretColor(new java.awt.Color(255, 255, 255));
         pos55.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos54.setText("54");
+        pos54.setBackground(new java.awt.Color(100, 100, 100));
+        pos54.setForeground(new java.awt.Color(255, 255, 255));
+        pos54.setText("0");
         pos54.setAlignmentX(0.6F);
+        pos54.setCaretColor(new java.awt.Color(255, 255, 255));
         pos54.setMaximumSize(new java.awt.Dimension(1, 1));
         pos54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -386,124 +538,214 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos53.setText("53");
+        pos53.setBackground(new java.awt.Color(100, 100, 100));
+        pos53.setForeground(new java.awt.Color(255, 255, 255));
+        pos53.setText("0");
         pos53.setAlignmentX(0.6F);
+        pos53.setCaretColor(new java.awt.Color(255, 255, 255));
         pos53.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos16.setText("16");
+        pos16.setBackground(new java.awt.Color(100, 100, 100));
+        pos16.setForeground(new java.awt.Color(255, 255, 255));
+        pos16.setText("0");
         pos16.setAlignmentX(0.6F);
+        pos16.setCaretColor(new java.awt.Color(255, 255, 255));
         pos16.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos52.setText("52");
+        pos52.setBackground(new java.awt.Color(100, 100, 100));
+        pos52.setForeground(new java.awt.Color(255, 255, 255));
+        pos52.setText("0");
         pos52.setAlignmentX(0.6F);
+        pos52.setCaretColor(new java.awt.Color(255, 255, 255));
         pos52.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos14.setText("14");
+        pos14.setBackground(new java.awt.Color(100, 100, 100));
+        pos14.setForeground(new java.awt.Color(255, 255, 255));
+        pos14.setText("0");
         pos14.setAlignmentX(0.6F);
+        pos14.setCaretColor(new java.awt.Color(255, 255, 255));
         pos14.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos15.setText("15");
+        pos15.setBackground(new java.awt.Color(100, 100, 100));
+        pos15.setForeground(new java.awt.Color(255, 255, 255));
+        pos15.setText("0");
         pos15.setAlignmentX(0.6F);
+        pos15.setCaretColor(new java.awt.Color(255, 255, 255));
         pos15.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos12.setText("12");
+        pos12.setBackground(new java.awt.Color(100, 100, 100));
+        pos12.setForeground(new java.awt.Color(255, 255, 255));
+        pos12.setText("0");
         pos12.setAlignmentX(0.6F);
+        pos12.setCaretColor(new java.awt.Color(255, 255, 255));
         pos12.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos13.setText("13");
+        pos13.setBackground(new java.awt.Color(100, 100, 100));
+        pos13.setForeground(new java.awt.Color(255, 255, 255));
+        pos13.setText("0");
         pos13.setAlignmentX(0.6F);
+        pos13.setCaretColor(new java.awt.Color(255, 255, 255));
         pos13.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos10.setText("10");
+        pos10.setBackground(new java.awt.Color(100, 100, 100));
+        pos10.setForeground(new java.awt.Color(255, 255, 255));
+        pos10.setText("0");
         pos10.setAlignmentX(0.6F);
+        pos10.setCaretColor(new java.awt.Color(255, 255, 255));
         pos10.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos11.setText("11");
+        pos11.setBackground(new java.awt.Color(100, 100, 100));
+        pos11.setForeground(new java.awt.Color(255, 255, 255));
+        pos11.setText("0");
         pos11.setAlignmentX(0.6F);
+        pos11.setCaretColor(new java.awt.Color(255, 255, 255));
         pos11.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos8.setText("8");
+        pos8.setBackground(new java.awt.Color(100, 100, 100));
+        pos8.setForeground(new java.awt.Color(255, 255, 255));
+        pos8.setText("0");
         pos8.setAlignmentX(0.6F);
+        pos8.setCaretColor(new java.awt.Color(255, 255, 255));
         pos8.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos9.setText("9");
+        pos9.setBackground(new java.awt.Color(100, 100, 100));
+        pos9.setForeground(new java.awt.Color(255, 255, 255));
+        pos9.setText("0");
         pos9.setAlignmentX(0.6F);
+        pos9.setCaretColor(new java.awt.Color(255, 255, 255));
         pos9.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos18.setText("18");
+        pos18.setBackground(new java.awt.Color(100, 100, 100));
+        pos18.setForeground(new java.awt.Color(255, 255, 255));
+        pos18.setText("0");
         pos18.setAlignmentX(0.6F);
+        pos18.setCaretColor(new java.awt.Color(255, 255, 255));
         pos18.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos17.setText("17");
+        pos17.setBackground(new java.awt.Color(100, 100, 100));
+        pos17.setForeground(new java.awt.Color(255, 255, 255));
+        pos17.setText("0");
         pos17.setAlignmentX(0.6F);
+        pos17.setCaretColor(new java.awt.Color(255, 255, 255));
         pos17.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos61.setText("61");
+        pos61.setBackground(new java.awt.Color(100, 100, 100));
+        pos61.setForeground(new java.awt.Color(255, 255, 255));
+        pos61.setText("0");
         pos61.setAlignmentX(0.6F);
+        pos61.setCaretColor(new java.awt.Color(255, 255, 255));
         pos61.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos62.setText("62");
+        pos62.setBackground(new java.awt.Color(100, 100, 100));
+        pos62.setForeground(new java.awt.Color(255, 255, 255));
+        pos62.setText("0");
         pos62.setAlignmentX(0.6F);
+        pos62.setCaretColor(new java.awt.Color(255, 255, 255));
         pos62.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos59.setText("59");
+        pos59.setBackground(new java.awt.Color(100, 100, 100));
+        pos59.setForeground(new java.awt.Color(255, 255, 255));
+        pos59.setText("0");
         pos59.setAlignmentX(0.6F);
+        pos59.setCaretColor(new java.awt.Color(255, 255, 255));
         pos59.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos60.setText("60");
+        pos60.setBackground(new java.awt.Color(100, 100, 100));
+        pos60.setForeground(new java.awt.Color(255, 255, 255));
+        pos60.setText("0");
         pos60.setAlignmentX(0.6F);
+        pos60.setCaretColor(new java.awt.Color(255, 255, 255));
         pos60.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos57.setText("57");
+        pos57.setBackground(new java.awt.Color(100, 100, 100));
+        pos57.setForeground(new java.awt.Color(255, 255, 255));
+        pos57.setText("0");
         pos57.setAlignmentX(0.6F);
+        pos57.setCaretColor(new java.awt.Color(255, 255, 255));
         pos57.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos58.setText("58");
+        pos58.setBackground(new java.awt.Color(100, 100, 100));
+        pos58.setForeground(new java.awt.Color(255, 255, 255));
+        pos58.setText("0");
         pos58.setAlignmentX(0.6F);
+        pos58.setCaretColor(new java.awt.Color(255, 255, 255));
         pos58.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos46.setText("46");
+        pos46.setBackground(new java.awt.Color(100, 100, 100));
+        pos46.setForeground(new java.awt.Color(255, 255, 255));
+        pos46.setText("0");
         pos46.setAlignmentX(0.6F);
+        pos46.setCaretColor(new java.awt.Color(255, 255, 255));
         pos46.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos45.setText("45");
+        pos45.setBackground(new java.awt.Color(100, 100, 100));
+        pos45.setForeground(new java.awt.Color(255, 255, 255));
+        pos45.setText("0");
         pos45.setAlignmentX(0.6F);
+        pos45.setCaretColor(new java.awt.Color(255, 255, 255));
         pos45.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos42.setText("42");
+        pos42.setBackground(new java.awt.Color(100, 100, 100));
+        pos42.setForeground(new java.awt.Color(255, 255, 255));
+        pos42.setText("0");
         pos42.setAlignmentX(0.6F);
+        pos42.setCaretColor(new java.awt.Color(255, 255, 255));
         pos42.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos41.setText("41");
+        pos41.setBackground(new java.awt.Color(100, 100, 100));
+        pos41.setForeground(new java.awt.Color(255, 255, 255));
+        pos41.setText("0");
         pos41.setAlignmentX(0.6F);
+        pos41.setCaretColor(new java.awt.Color(255, 255, 255));
         pos41.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos44.setText("44");
+        pos44.setBackground(new java.awt.Color(100, 100, 100));
+        pos44.setForeground(new java.awt.Color(255, 255, 255));
+        pos44.setText("0");
         pos44.setAlignmentX(0.6F);
+        pos44.setCaretColor(new java.awt.Color(255, 255, 255));
         pos44.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos43.setText("43");
+        pos43.setBackground(new java.awt.Color(100, 100, 100));
+        pos43.setForeground(new java.awt.Color(255, 255, 255));
+        pos43.setText("0");
         pos43.setAlignmentX(0.6F);
+        pos43.setCaretColor(new java.awt.Color(255, 255, 255));
         pos43.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos7.setText("7");
+        pos7.setBackground(new java.awt.Color(100, 100, 100));
+        pos7.setForeground(new java.awt.Color(255, 255, 255));
+        pos7.setText("0");
         pos7.setAlignmentX(0.6F);
+        pos7.setCaretColor(new java.awt.Color(255, 255, 255));
         pos7.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos48.setText("48");
+        pos48.setBackground(new java.awt.Color(100, 100, 100));
+        pos48.setForeground(new java.awt.Color(255, 255, 255));
+        pos48.setText("0");
         pos48.setAlignmentX(0.6F);
+        pos48.setCaretColor(new java.awt.Color(255, 255, 255));
         pos48.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos49.setText("49");
+        pos49.setBackground(new java.awt.Color(100, 100, 100));
+        pos49.setForeground(new java.awt.Color(255, 255, 255));
+        pos49.setText("0");
         pos49.setAlignmentX(0.6F);
+        pos49.setCaretColor(new java.awt.Color(255, 255, 255));
         pos49.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos50.setText("50");
+        pos50.setBackground(new java.awt.Color(100, 100, 100));
+        pos50.setForeground(new java.awt.Color(255, 255, 255));
+        pos50.setText("0");
         pos50.setAlignmentX(0.6F);
+        pos50.setCaretColor(new java.awt.Color(255, 255, 255));
         pos50.setMaximumSize(new java.awt.Dimension(1, 1));
 
-        pos51.setText("51");
+        pos51.setBackground(new java.awt.Color(100, 100, 100));
+        pos51.setForeground(new java.awt.Color(255, 255, 255));
+        pos51.setText("0");
         pos51.setAlignmentX(0.6F);
+        pos51.setCaretColor(new java.awt.Color(255, 255, 255));
         pos51.setMaximumSize(new java.awt.Dimension(1, 1));
         pos51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -511,8 +753,11 @@ public class Sudoku9 extends javax.swing.JFrame {
             }
         });
 
-        pos47.setText("47");
+        pos47.setBackground(new java.awt.Color(100, 100, 100));
+        pos47.setForeground(new java.awt.Color(255, 255, 255));
+        pos47.setText("0");
         pos47.setAlignmentX(0.6F);
+        pos47.setCaretColor(new java.awt.Color(255, 255, 255));
         pos47.setMaximumSize(new java.awt.Dimension(1, 1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -523,171 +768,171 @@ public class Sudoku9 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addComponent(pos1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(pos1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(pos2, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(pos2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(pos3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(pos3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(pos4, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(pos4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(pos5, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(pos5, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(pos6, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(pos6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(pos7, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(pos7, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(pos8, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(pos8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(pos9, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(pos9, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(pos19, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos19, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos20, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos20, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos21, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos21, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos22, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos22, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos23, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos23, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos24, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos24, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos25, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos25, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos26, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos26, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos27, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(pos27, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(pos28, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos28, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos29, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos29, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos30, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos30, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos31, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos31, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos32, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos32, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos33, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos33, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos34, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos34, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos35, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos35, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos36, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(pos36, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(pos37, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos37, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos38, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos38, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos39, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos39, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos40, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos40, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos41, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos41, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos42, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos42, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos43, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos43, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos44, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos44, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos45, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(pos45, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(pos46, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos46, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos47, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos47, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos48, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos48, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos49, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos49, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos50, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos50, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos51, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos51, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos52, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos52, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos53, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos53, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos54, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(pos54, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(pos55, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos55, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos56, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos56, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos57, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos57, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos58, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos58, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos59, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos59, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos60, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos60, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos61, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos61, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos62, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos62, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos63, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(pos63, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(pos64, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos64, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos65, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos65, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos66, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos66, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos67, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos67, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos68, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos68, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos69, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos69, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos70, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos70, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos71, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos71, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos72, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(pos72, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(pos73, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos73, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos74, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos74, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos75, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos75, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos76, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos76, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos77, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos77, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos78, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos78, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos79, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos79, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos80, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos80, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos81, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(pos81, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(pos10, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos10, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos11, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos11, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos12, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos12, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos13, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos13, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos14, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos14, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos15, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos15, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pos16, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos16, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos17, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pos17, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pos18, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(pos18, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 74, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(Resolver, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Limpiar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))))
@@ -698,111 +943,111 @@ public class Sudoku9 extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(33, 33, 33)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pos1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pos1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos5, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos7, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos9, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pos10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pos10, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos11, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos12, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos13, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos14, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos15, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos16, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos17, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos18, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pos19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos19, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos20, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos21, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos22, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos23, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos24, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos25, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos26, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos27, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Resolver))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pos28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos28, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos29, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos30, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos31, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos32, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos33, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos34, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos35, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos36, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Limpiar))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pos37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pos37, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos38, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos39, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos40, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos41, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos42, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos43, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos44, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos45, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pos46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos49, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos50, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos52, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pos46, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos47, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos48, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos49, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos50, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos51, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos52, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos53, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos54, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pos55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos56, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos57, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos58, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos60, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos61, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos63, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pos55, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos56, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos57, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos58, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos59, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos60, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos61, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos62, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos63, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pos64, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos68, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos69, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos70, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos71, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos72, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pos64, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos65, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos66, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos67, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos68, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos69, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos70, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos71, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos72, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pos73, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos74, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos75, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos76, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos77, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos78, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos79, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos80, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos81, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pos73, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos74, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos75, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos76, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos77, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos78, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos79, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos80, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pos81, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+protected JOptionPane mensaje=new JOptionPane();
     private void pos30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pos30ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_pos30ActionPerformed
@@ -939,7 +1184,7 @@ public class Sudoku9 extends javax.swing.JFrame {
 
     private void ResolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ResolverActionPerformed
       Sudoku1 s=new Sudoku1();
- 
+ try{
       int [][]A={
           
         {Integer.parseInt(pos1.getText()), Integer.parseInt(pos2.getText()), Integer.parseInt(pos3.getText()), Integer.parseInt(pos4.getText()), Integer.parseInt(pos5.getText()), Integer.parseInt(pos6.getText()), Integer.parseInt(pos7.getText()), Integer.parseInt(pos8.getText()), Integer.parseInt(pos9.getText())},
@@ -952,8 +1197,28 @@ public class Sudoku9 extends javax.swing.JFrame {
         {Integer.parseInt(pos64.getText()), Integer.parseInt(pos65.getText()), Integer.parseInt(pos66.getText()), Integer.parseInt(pos67.getText()), Integer.parseInt(pos68.getText()), Integer.parseInt(pos69.getText()), Integer.parseInt(pos70.getText()), Integer.parseInt(pos71.getText()), Integer.parseInt(pos72.getText())},
         {Integer.parseInt(pos73.getText()), Integer.parseInt(pos74.getText()), Integer.parseInt(pos75.getText()), Integer.parseInt(pos76.getText()), Integer.parseInt(pos77.getText()), Integer.parseInt(pos78.getText()), Integer.parseInt(pos79.getText()), Integer.parseInt(pos80.getText()), Integer.parseInt(pos81.getText())},
       };
-      //if(s.ValidaInicio(A, 0, 0,1)) 
-          s.llena(A, 0, 0, 1);
+ }catch(NumberFormatException e){
+     mensaje.showMessageDialog(Resolver,"Error no insegrar texto",null,mensaje.ERROR_MESSAGE);
+ }
+ int [][]A={
+          
+        {Integer.parseInt(pos1.getText()), Integer.parseInt(pos2.getText()), Integer.parseInt(pos3.getText()), Integer.parseInt(pos4.getText()), Integer.parseInt(pos5.getText()), Integer.parseInt(pos6.getText()), Integer.parseInt(pos7.getText()), Integer.parseInt(pos8.getText()), Integer.parseInt(pos9.getText())},
+        {Integer.parseInt(pos10.getText()), Integer.parseInt(pos11.getText()), Integer.parseInt(pos12.getText()), Integer.parseInt(pos13.getText()), Integer.parseInt(pos14.getText()), Integer.parseInt(pos15.getText()), Integer.parseInt(pos16.getText()), Integer.parseInt(pos17.getText()), Integer.parseInt(pos18.getText())},
+        {Integer.parseInt(pos19.getText()), Integer.parseInt(pos20.getText()), Integer.parseInt(pos21.getText()), Integer.parseInt(pos22.getText()), Integer.parseInt(pos23.getText()), Integer.parseInt(pos24.getText()), Integer.parseInt(pos25.getText()), Integer.parseInt(pos26.getText()), Integer.parseInt(pos27.getText())},
+        {Integer.parseInt(pos28.getText()), Integer.parseInt(pos29.getText()), Integer.parseInt(pos30.getText()), Integer.parseInt(pos31.getText()), Integer.parseInt(pos32.getText()), Integer.parseInt(pos33.getText()), Integer.parseInt(pos34.getText()), Integer.parseInt(pos35.getText()), Integer.parseInt(pos36.getText())},
+        {Integer.parseInt(pos37.getText()), Integer.parseInt(pos38.getText()), Integer.parseInt(pos39.getText()), Integer.parseInt(pos40.getText()), Integer.parseInt(pos41.getText()), Integer.parseInt(pos42.getText()), Integer.parseInt(pos43.getText()), Integer.parseInt(pos44.getText()), Integer.parseInt(pos45.getText())},
+        {Integer.parseInt(pos46.getText()), Integer.parseInt(pos47.getText()), Integer.parseInt(pos48.getText()), Integer.parseInt(pos49.getText()), Integer.parseInt(pos50.getText()), Integer.parseInt(pos51.getText()), Integer.parseInt(pos52.getText()), Integer.parseInt(pos53.getText()), Integer.parseInt(pos54.getText())},
+        {Integer.parseInt(pos55.getText()), Integer.parseInt(pos56.getText()), Integer.parseInt(pos57.getText()), Integer.parseInt(pos58.getText()), Integer.parseInt(pos59.getText()), Integer.parseInt(pos60.getText()), Integer.parseInt(pos61.getText()), Integer.parseInt(pos62.getText()), Integer.parseInt(pos63.getText())},
+        {Integer.parseInt(pos64.getText()), Integer.parseInt(pos65.getText()), Integer.parseInt(pos66.getText()), Integer.parseInt(pos67.getText()), Integer.parseInt(pos68.getText()), Integer.parseInt(pos69.getText()), Integer.parseInt(pos70.getText()), Integer.parseInt(pos71.getText()), Integer.parseInt(pos72.getText())},
+        {Integer.parseInt(pos73.getText()), Integer.parseInt(pos74.getText()), Integer.parseInt(pos75.getText()), Integer.parseInt(pos76.getText()), Integer.parseInt(pos77.getText()), Integer.parseInt(pos78.getText()), Integer.parseInt(pos79.getText()), Integer.parseInt(pos80.getText()), Integer.parseInt(pos81.getText())},
+      };
+ 
+ 
+     if(s.ValidaInicio(A)==false)
+          mensaje.showMessageDialog(Resolver,"Error. Ponga números dentro de rango.",null,mensaje.ERROR_MESSAGE);
+     else
+          
+      s.llena(A, 0, 0, 1);
       pos1.setText(A[0][0]+"");
       pos2.setText(A[0][1]+"");
       pos3.setText(A[0][2]+"");
@@ -966,23 +1231,77 @@ public class Sudoku9 extends javax.swing.JFrame {
       pos10.setText(A[1][0]+"");
       pos11.setText(A[1][1]+"");
       pos12.setText(A[1][2]+"");
+      pos13.setText(A[1][3]+"");
+      pos14.setText(A[1][4]+""); 
+      pos15.setText(A[1][5]+"");
+      pos16.setText(A[1][6]+"");
+      pos17.setText(A[1][7]+"");
+      pos18.setText(A[1][8]+"");
+      pos19.setText(A[2][0]+"");
+      pos20.setText(A[2][1]+"");
+      pos21.setText(A[2][2]+"");
+      pos22.setText(A[2][3]+"");
+      pos23.setText(A[2][4]+"");
+      pos24.setText(A[2][5]+""); 
+      pos25.setText(A[2][6]+"");
+      pos26.setText(A[2][7]+"");
+      pos27.setText(A[2][8]+"");
+      pos28.setText(A[3][0]+"");
+      pos29.setText(A[3][1]+"");
+      pos30.setText(A[3][2]+"");
+      pos31.setText(A[3][3]+"");
+      pos32.setText(A[3][4]+"");
+      pos33.setText(A[3][5]+""); 
+      pos34.setText(A[3][6]+"");
+      pos35.setText(A[3][7]+"");
+      pos36.setText(A[3][8]+"");
+      pos37.setText(A[4][0]+"");
+      pos38.setText(A[4][1]+"");
+      pos39.setText(A[4][2]+"");
+      pos40.setText(A[4][3]+"");
+      pos41.setText(A[4][4]+"");
+      pos42.setText(A[4][5]+""); 
+      pos43.setText(A[4][6]+"");
+      pos44.setText(A[4][7]+"");
+      pos45.setText(A[4][8]+"");
+      pos46.setText(A[5][0]+"");
+      pos47.setText(A[5][1]+"");
+      pos48.setText(A[5][2]+"");
+      pos49.setText(A[5][3]+"");
+      pos50.setText(A[5][4]+"");
+      pos51.setText(A[5][5]+""); 
+      pos52.setText(A[5][6]+"");
+      pos53.setText(A[5][7]+"");
+      pos54.setText(A[5][8]+"");
+      pos55.setText(A[6][0]+"");
+      pos56.setText(A[6][1]+"");
+      pos57.setText(A[6][2]+"");
+      pos58.setText(A[6][3]+"");
+      pos59.setText(A[6][4]+"");
+      pos60.setText(A[6][5]+""); 
+      pos61.setText(A[6][6]+"");
+      pos62.setText(A[6][7]+"");
+      pos63.setText(A[6][8]+"");
+      pos64.setText(A[7][0]+"");
+      pos65.setText(A[7][1]+"");
+      pos66.setText(A[7][2]+"");
+      pos67.setText(A[7][3]+"");
+      pos68.setText(A[7][4]+"");
+      pos69.setText(A[7][5]+""); 
+      pos70.setText(A[7][6]+"");
+      pos71.setText(A[7][7]+"");
+      pos72.setText(A[7][8]+"");
+      pos73.setText(A[8][0]+"");
+      pos74.setText(A[8][1]+"");
+      pos75.setText(A[8][2]+"");
+      pos76.setText(A[8][3]+"");
+      pos77.setText(A[8][4]+"");
+      pos78.setText(A[8][5]+""); 
+      pos79.setText(A[8][6]+"");
+      pos80.setText(A[8][7]+"");
+      pos81.setText(A[8][8]+"");
       
-      pos13.setText(A[0][2]+"");
-      pos14.setText(A[0][3]+""); 
-      pos15.setText(A[0][4]+"");
-      pos16.setText(A[0][5]+"");
-      pos17.setText(A[0][6]+"");
-      pos18.setText(A[0][7]+"");
-      pos19.setText(A[0][8]+"");
-      
-      
-      
-      
-      
-      
-      
-      
-      
+            
     }//GEN-LAST:event_ResolverActionPerformed
 
     /**

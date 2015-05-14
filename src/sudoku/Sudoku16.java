@@ -4318,6 +4318,14 @@ protected JOptionPane mensaje=new JOptionPane();
         dispose();
         }
         else
+             try{
+               s.llena(A, 0, 0, 1);
+          }catch(Unchecked e){
+               mensaje.showMessageDialog(Resolver,"Error. Sudoku muy dificil.",null,mensaje.ERROR_MESSAGE);
+              dispose();
+              Sudoku16 x=new Sudoku16();
+              x.setVisible(true);
+          }
 
         s.llena(A, 0, 0, 1);
         pos1.setText(A[0][0]+"");pos2.setText(A[0][1]+""); pos3.setText(A[0][2]+"");pos4.setText(A[0][3]+"");pos5.setText(A[0][4]+"");pos6.setText(A[0][5]+"");pos7.setText(A[0][6]+"");pos8.setText(A[0][7]+"");pos9.setText(A[0][8]+"");pos10.setText(A[0][9]+"");pos11.setText(A[0][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[0][15]+"");

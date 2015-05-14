@@ -356,6 +356,14 @@ protected JOptionPane mensaje=new JOptionPane();
          dispose();
       }
       else     
+          try{
+               s.llena(A, 0, 0, 1);
+          }catch(Unchecked e){
+               mensaje.showMessageDialog(Resolver,"Error. Sudoku muy dificil.",null,mensaje.ERROR_MESSAGE);
+              dispose();
+              Sudoku4 x=new Sudoku4();
+              x.setVisible(true);
+          }
           
       s.llena(A, 0, 0, 1);
       pos1.setText(A[0][0]+"");

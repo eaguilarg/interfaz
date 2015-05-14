@@ -4,7 +4,8 @@ import java.awt.List;
 import java.util.ArrayList;
 
 public class Sudoku1 {
-
+//atributo
+    int cronometro=0;
     public Sudoku1() {
     }
 
@@ -137,8 +138,8 @@ public boolean buscaStrings(int [][]matrix, int n){//codigo ascii 48-57
 
     public boolean llena(int[][] A, int x, int y, int val) {
         int xAnt = x, yAnt = y;
-        int n=n++;
-        if(n==1000000)
+        cronometro++;
+        if(cronometro==1000000)
             throw new Unchecked("Sudoku demasiado dificil");
         if(val>A.length)
             return false;
@@ -208,5 +209,7 @@ public boolean buscaStrings(int [][]matrix, int n){//codigo ascii 48-57
         
      
     }
+
+    
 
 }

@@ -349,6 +349,7 @@ public class Sudoku16 extends javax.swing.JFrame {
         pos256 = new javax.swing.JTextField();
         pos240 = new javax.swing.JTextField();
         pos208 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
 
         pos330.setBackground(new java.awt.Color(255, 102, 102));
         pos330.setForeground(new java.awt.Color(255, 255, 255));
@@ -3061,6 +3062,13 @@ public class Sudoku16 extends javax.swing.JFrame {
         pos208.setCaretColor(new java.awt.Color(255, 255, 255));
         pos208.setMaximumSize(new java.awt.Dimension(1, 1));
 
+        jButton1.setText("Regresar a menu");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -3199,9 +3207,10 @@ public class Sudoku16 extends javax.swing.JFrame {
                             .addComponent(pos32, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(pos16, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Limpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Resolver, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Limpiar, javax.swing.GroupLayout.DEFAULT_SIZE, 141, Short.MAX_VALUE)
+                            .addComponent(Resolver, javax.swing.GroupLayout.DEFAULT_SIZE, 141, Short.MAX_VALUE)
+                            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -3607,7 +3616,9 @@ public class Sudoku16 extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(pos16, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(pos16, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jButton1))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                             .addComponent(pos32, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -4001,6 +4012,13 @@ protected JOptionPane mensaje=new JOptionPane();
         pos7.setText("0");
         pos8.setText("0");
         pos9.setText("0");
+        pos10.setText("0");
+        pos11.setText("0");
+        pos12.setText("0");
+        pos13.setText("0");
+        pos14.setText("0");
+        pos15.setText("0");
+        pos16.setText("0");
         pos17.setText("0");
         pos18.setText("0");
         pos19.setText("0");
@@ -4010,26 +4028,18 @@ protected JOptionPane mensaje=new JOptionPane();
         pos23.setText("0");
         pos24.setText("0");
         pos25.setText("0");
+        pos26.setText("0");
+        pos27.setText("0");
+        pos28.setText("0");
+        pos29.setText("0");
+        pos30.setText("0");
+        pos31.setText("0");
+        pos32.setText("0");
         pos33.setText("0");
         pos34.setText("0");
         pos35.setText("0");
         pos36.setText("0");
         pos37.setText("0");
-        pos38.setText("0");
-        pos39.setText("0");
-        pos40.setText("0");
-        pos41.setText("0");
-        pos49.setText("0");
-        pos50.setText("0");
-        pos51.setText("0");
-        pos52.setText("0");
-        pos53.setText("0");
-        pos54.setText("0");
-        pos55.setText("0");
-        pos56.setText("0");
-        pos57.setText("0");
-        pos37.setText("0");
-        pos38.setText("0");
         pos38.setText("0");
         pos39.setText("0");
         pos40.setText("0");
@@ -4276,7 +4286,10 @@ protected JOptionPane mensaje=new JOptionPane();
                 
             };
         }catch(NumberFormatException e){
-            mensaje.showMessageDialog(Resolver,"Error no insegrar texto",null,mensaje.ERROR_MESSAGE);
+            mensaje.showMessageDialog(Resolver,"Error no ingresar texto o dejar espacios en blanco",null,mensaje.ERROR_MESSAGE);
+            Sudoku16 x=new Sudoku16();
+            x.setVisible(true);
+            dispose();
         }
         int [][]A={
                 {Integer.parseInt(pos1.getText()), Integer.parseInt(pos2.getText()), Integer.parseInt(pos3.getText()), Integer.parseInt(pos4.getText()), Integer.parseInt(pos5.getText()), Integer.parseInt(pos6.getText()), Integer.parseInt(pos7.getText()), Integer.parseInt(pos8.getText()), Integer.parseInt(pos9.getText()),Integer.parseInt(pos10.getText()),Integer.parseInt(pos11.getText()),Integer.parseInt(pos12.getText()),Integer.parseInt(pos13.getText()),Integer.parseInt(pos14.getText()),Integer.parseInt(pos15.getText()),Integer.parseInt(pos16.getText()) },
@@ -4298,27 +4311,31 @@ protected JOptionPane mensaje=new JOptionPane();
                     
         };
 
-        if(s.ValidaInicio(A)==false)
+        if(s.ValidaInicio(A)==false){
         mensaje.showMessageDialog(Resolver,"Error. Ponga números dentro de rango.",null,mensaje.ERROR_MESSAGE);
+        Sudoku16 x=new Sudoku16();
+        x.setVisible(true);
+        dispose();
+        }
         else
 
         s.llena(A, 0, 0, 1);
-        pos1.setText(A[0][0]+"");pos2.setText(A[0][1]+""); pos3.setText(A[0][2]+"");pos4.setText(A[0][3]+"");pos5.setText(A[0][4]+"");pos6.setText(A[0][5]+"");pos7.setText(A[0][6]+"");pos8.setText(A[0][7]+"");pos9.setText(A[0][8]+"");pos10.setText(A[0][9]+"");pos11.setText(A[0][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos17.setText(A[1][0]+""); pos18.setText(A[1][1]+""); pos19.setText(A[1][2]+"");pos20.setText(A[1][3]+"");pos21.setText(A[1][4]+"");pos22.setText(A[1][5]+"");pos23.setText(A[1][6]+"");pos24.setText(A[1][7]+"");pos25.setText(A[1][8]+"");pos26.setText(A[1][9]+"");pos27.setText(A[1][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos33.setText(A[2][0]+""); pos34.setText(A[2][1]+""); pos35.setText(A[2][2]+"");pos36.setText(A[2][3]+"");pos37.setText(A[2][4]+"");pos38.setText(A[2][5]+"");pos39.setText(A[2][6]+"");pos40.setText(A[2][7]+"");pos41.setText(A[2][8]+"");pos42.setText(A[2][9]+"");pos43.setText(A[2][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos49.setText(A[3][0]+""); pos50.setText(A[3][1]+""); pos51.setText(A[3][2]+"");pos52.setText(A[3][3]+"");pos53.setText(A[3][4]+"");pos54.setText(A[3][5]+"");pos55.setText(A[3][6]+"");pos56.setText(A[3][7]+"");pos57.setText(A[3][8]+"");pos58.setText(A[3][9]+"");pos59.setText(A[3][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos65.setText(A[4][0]+""); pos66.setText(A[4][1]+""); pos67.setText(A[4][2]+"");pos68.setText(A[4][3]+"");pos69.setText(A[4][4]+"");pos70.setText(A[4][5]+"");pos71.setText(A[4][6]+"");pos72.setText(A[4][7]+"");pos73.setText(A[4][8]+"");pos74.setText(A[4][9]+"");pos75.setText(A[4][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos81.setText(A[5][0]+""); pos82.setText(A[5][1]+""); pos83.setText(A[5][2]+"");pos84.setText(A[5][3]+"");pos85.setText(A[5][4]+"");pos86.setText(A[5][5]+"");pos87.setText(A[5][6]+"");pos88.setText(A[5][7]+"");pos89.setText(A[5][8]+"");pos90.setText(A[5][9]+"");pos91.setText(A[5][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos97.setText(A[6][0]+""); pos98.setText(A[6][1]+""); pos99.setText(A[6][2]+"");pos100.setText(A[6][3]+"");pos101.setText(A[6][4]+"");pos102.setText(A[6][5]+"");pos103.setText(A[6][6]+"");pos104.setText(A[6][7]+"");pos105.setText(A[6][8]+"");pos106.setText(A[6][9]+"");pos107.setText(A[6][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos113.setText(A[7][0]+""); pos114.setText(A[7][1]+""); pos115.setText(A[7][2]+"");pos116.setText(A[7][3]+"");pos117.setText(A[7][4]+"");pos118.setText(A[7][5]+"");pos119.setText(A[7][6]+"");pos120.setText(A[7][7]+"");pos121.setText(A[7][8]+"");pos122.setText(A[7][9]+"");pos123.setText(A[7][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos129.setText(A[8][0]+""); pos130.setText(A[8][1]+""); pos131.setText(A[8][2]+"");pos132.setText(A[8][3]+"");pos133.setText(A[8][4]+"");pos134.setText(A[8][5]+"");pos135.setText(A[8][6]+"");pos136.setText(A[8][7]+"");pos137.setText(A[8][8]+"");pos138.setText(A[8][9]+"");pos139.setText(A[8][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos145.setText(A[9][0]+""); pos146.setText(A[9][1]+""); pos147.setText(A[9][2]+"");pos148.setText(A[9][3]+"");pos149.setText(A[9][4]+"");pos150.setText(A[9][5]+"");pos151.setText(A[9][6]+"");pos152.setText(A[9][7]+"");pos153.setText(A[9][8]+"");pos154.setText(A[9][9]+"");pos155.setText(A[9][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos161.setText(A[10][0]+""); pos162.setText(A[10][1]+""); pos163.setText(A[10][2]+"");pos164.setText(A[10][3]+"");pos165.setText(A[10][4]+"");pos166.setText(A[10][5]+"");pos167.setText(A[10][6]+"");pos168.setText(A[10][7]+"");pos169.setText(A[10][8]+"");pos170.setText(A[10][9]+"");pos171.setText(A[10][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos177.setText(A[11][0]+""); pos178.setText(A[11][1]+""); pos179.setText(A[11][2]+"");pos180.setText(A[11][3]+"");pos181.setText(A[11][4]+"");pos182.setText(A[11][5]+"");pos183.setText(A[11][6]+"");pos184.setText(A[11][7]+"");pos185.setText(A[11][8]+"");pos186.setText(A[11][9]+"");pos187.setText(A[11][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos193.setText(A[12][0]+""); pos194.setText(A[12][1]+""); pos195.setText(A[12][2]+"");pos196.setText(A[12][3]+"");pos197.setText(A[12][4]+"");pos198.setText(A[12][5]+"");pos199.setText(A[12][6]+"");pos200.setText(A[12][7]+"");pos201.setText(A[12][8]+"");pos202.setText(A[12][9]+"");pos203.setText(A[12][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos209.setText(A[13][0]+""); pos210.setText(A[13][1]+""); pos211.setText(A[13][2]+"");pos212.setText(A[13][3]+"");pos213.setText(A[13][4]+"");pos214.setText(A[13][5]+"");pos215.setText(A[13][6]+"");pos216.setText(A[13][7]+"");pos217.setText(A[13][8]+"");pos218.setText(A[13][9]+"");pos219.setText(A[13][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos225.setText(A[14][0]+""); pos226.setText(A[14][1]+""); pos227.setText(A[14][2]+"");pos228.setText(A[14][3]+"");pos229.setText(A[14][4]+"");pos230.setText(A[14][5]+"");pos231.setText(A[14][6]+"");pos232.setText(A[14][7]+"");pos233.setText(A[14][8]+"");pos234.setText(A[14][9]+"");pos235.setText(A[14][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
-        pos241.setText(A[15][0]+""); pos242.setText(A[15][1]+""); pos243.setText(A[15][2]+"");pos244.setText(A[15][3]+"");pos245.setText(A[15][4]+"");pos246.setText(A[15][5]+"");pos247.setText(A[15][6]+"");pos248.setText(A[15][7]+"");pos249.setText(A[15][8]+"");pos250.setText(A[15][9]+"");pos251.setText(A[15][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[1][15]+"");
+        pos1.setText(A[0][0]+"");pos2.setText(A[0][1]+""); pos3.setText(A[0][2]+"");pos4.setText(A[0][3]+"");pos5.setText(A[0][4]+"");pos6.setText(A[0][5]+"");pos7.setText(A[0][6]+"");pos8.setText(A[0][7]+"");pos9.setText(A[0][8]+"");pos10.setText(A[0][9]+"");pos11.setText(A[0][10]+"");pos12.setText(A[0][11]+"");pos13.setText(A[0][12]+"");pos14.setText(A[0][13]+"");pos15.setText(A[0][14]+"");pos16.setText(A[0][15]+"");
+        pos17.setText(A[1][0]+""); pos18.setText(A[1][1]+""); pos19.setText(A[1][2]+"");pos20.setText(A[1][3]+"");pos21.setText(A[1][4]+"");pos22.setText(A[1][5]+"");pos23.setText(A[1][6]+"");pos24.setText(A[1][7]+"");pos25.setText(A[1][8]+"");pos26.setText(A[1][9]+"");pos27.setText(A[1][10]+"");pos28.setText(A[1][11]+"");pos29.setText(A[1][12]+"");pos30.setText(A[1][13]+"");pos31.setText(A[1][14]+"");pos32.setText(A[1][15]+"");
+        pos33.setText(A[2][0]+""); pos34.setText(A[2][1]+""); pos35.setText(A[2][2]+"");pos36.setText(A[2][3]+"");pos37.setText(A[2][4]+"");pos38.setText(A[2][5]+"");pos39.setText(A[2][6]+"");pos40.setText(A[2][7]+"");pos41.setText(A[2][8]+"");pos42.setText(A[2][9]+"");pos43.setText(A[2][10]+"");pos44.setText(A[2][11]+"");pos45.setText(A[2][12]+"");pos46.setText(A[2][13]+"");pos47.setText(A[2][14]+"");pos48.setText(A[2][15]+"");
+        pos49.setText(A[3][0]+""); pos50.setText(A[3][1]+""); pos51.setText(A[3][2]+"");pos52.setText(A[3][3]+"");pos53.setText(A[3][4]+"");pos54.setText(A[3][5]+"");pos55.setText(A[3][6]+"");pos56.setText(A[3][7]+"");pos57.setText(A[3][8]+"");pos58.setText(A[3][9]+"");pos59.setText(A[3][10]+"");pos60.setText(A[3][11]+"");pos61.setText(A[3][12]+"");pos62.setText(A[3][13]+"");pos63.setText(A[3][14]+"");pos64.setText(A[3][15]+"");
+        pos65.setText(A[4][0]+""); pos66.setText(A[4][1]+""); pos67.setText(A[4][2]+"");pos68.setText(A[4][3]+"");pos69.setText(A[4][4]+"");pos70.setText(A[4][5]+"");pos71.setText(A[4][6]+"");pos72.setText(A[4][7]+"");pos73.setText(A[4][8]+"");pos74.setText(A[4][9]+"");pos75.setText(A[4][10]+"");pos76.setText(A[4][11]+"");pos77.setText(A[4][12]+"");pos78.setText(A[4][13]+"");pos79.setText(A[4][14]+"");pos80.setText(A[4][15]+"");
+        pos81.setText(A[5][0]+""); pos82.setText(A[5][1]+""); pos83.setText(A[5][2]+"");pos84.setText(A[5][3]+"");pos85.setText(A[5][4]+"");pos86.setText(A[5][5]+"");pos87.setText(A[5][6]+"");pos88.setText(A[5][7]+"");pos89.setText(A[5][8]+"");pos90.setText(A[5][9]+"");pos91.setText(A[5][10]+"");pos92.setText(A[5][11]+"");pos93.setText(A[5][12]+"");pos94.setText(A[5][13]+"");pos95.setText(A[5][14]+"");pos96.setText(A[5][15]+"");
+        pos97.setText(A[6][0]+""); pos98.setText(A[6][1]+""); pos99.setText(A[6][2]+"");pos100.setText(A[6][3]+"");pos101.setText(A[6][4]+"");pos102.setText(A[6][5]+"");pos103.setText(A[6][6]+"");pos104.setText(A[6][7]+"");pos105.setText(A[6][8]+"");pos106.setText(A[6][9]+"");pos107.setText(A[6][10]+"");pos108.setText(A[6][11]+"");pos109.setText(A[6][12]+"");pos110.setText(A[6][13]+"");pos111.setText(A[6][14]+"");pos112.setText(A[6][15]+"");
+        pos113.setText(A[7][0]+""); pos114.setText(A[7][1]+""); pos115.setText(A[7][2]+"");pos116.setText(A[7][3]+"");pos117.setText(A[7][4]+"");pos118.setText(A[7][5]+"");pos119.setText(A[7][6]+"");pos120.setText(A[7][7]+"");pos121.setText(A[7][8]+"");pos122.setText(A[7][9]+"");pos123.setText(A[7][10]+"");pos124.setText(A[7][11]+"");pos125.setText(A[7][12]+"");pos126.setText(A[7][13]+"");pos127.setText(A[7][14]+"");pos128.setText(A[7][15]+"");
+        pos129.setText(A[8][0]+""); pos130.setText(A[8][1]+""); pos131.setText(A[8][2]+"");pos132.setText(A[8][3]+"");pos133.setText(A[8][4]+"");pos134.setText(A[8][5]+"");pos135.setText(A[8][6]+"");pos136.setText(A[8][7]+"");pos137.setText(A[8][8]+"");pos138.setText(A[8][9]+"");pos139.setText(A[8][10]+"");pos140.setText(A[8][11]+"");pos141.setText(A[8][12]+"");pos142.setText(A[8][13]+"");pos143.setText(A[8][14]+"");pos144.setText(A[8][15]+"");
+        pos145.setText(A[9][0]+""); pos146.setText(A[9][1]+""); pos147.setText(A[9][2]+"");pos148.setText(A[9][3]+"");pos149.setText(A[9][4]+"");pos150.setText(A[9][5]+"");pos151.setText(A[9][6]+"");pos152.setText(A[9][7]+"");pos153.setText(A[9][8]+"");pos154.setText(A[9][9]+"");pos155.setText(A[9][10]+"");pos156.setText(A[9][11]+"");pos157.setText(A[9][12]+"");pos158.setText(A[9][13]+"");pos159.setText(A[9][14]+"");pos160.setText(A[9][15]+"");
+        pos161.setText(A[10][0]+""); pos162.setText(A[10][1]+""); pos163.setText(A[10][2]+"");pos164.setText(A[10][3]+"");pos165.setText(A[10][4]+"");pos166.setText(A[10][5]+"");pos167.setText(A[10][6]+"");pos168.setText(A[10][7]+"");pos169.setText(A[10][8]+"");pos170.setText(A[10][9]+"");pos171.setText(A[10][10]+"");pos172.setText(A[10][11]+"");pos173.setText(A[10][12]+"");pos174.setText(A[10][13]+"");pos175.setText(A[10][14]+"");pos176.setText(A[10][15]+"");
+        pos177.setText(A[11][0]+""); pos178.setText(A[11][1]+""); pos179.setText(A[11][2]+"");pos180.setText(A[11][3]+"");pos181.setText(A[11][4]+"");pos182.setText(A[11][5]+"");pos183.setText(A[11][6]+"");pos184.setText(A[11][7]+"");pos185.setText(A[11][8]+"");pos186.setText(A[11][9]+"");pos187.setText(A[11][10]+"");pos188.setText(A[11][11]+"");pos189.setText(A[11][12]+"");pos190.setText(A[11][13]+"");pos191.setText(A[11][14]+"");pos192.setText(A[11][15]+"");
+        pos193.setText(A[12][0]+""); pos194.setText(A[12][1]+""); pos195.setText(A[12][2]+"");pos196.setText(A[12][3]+"");pos197.setText(A[12][4]+"");pos198.setText(A[12][5]+"");pos199.setText(A[12][6]+"");pos200.setText(A[12][7]+"");pos201.setText(A[12][8]+"");pos202.setText(A[12][9]+"");pos203.setText(A[12][10]+"");pos204.setText(A[12][11]+"");pos205.setText(A[12][12]+"");pos206.setText(A[12][13]+"");pos207.setText(A[12][14]+"");pos208.setText(A[12][15]+"");
+        pos209.setText(A[13][0]+""); pos210.setText(A[13][1]+""); pos211.setText(A[13][2]+"");pos212.setText(A[13][3]+"");pos213.setText(A[13][4]+"");pos214.setText(A[13][5]+"");pos215.setText(A[13][6]+"");pos216.setText(A[13][7]+"");pos217.setText(A[13][8]+"");pos218.setText(A[13][9]+"");pos219.setText(A[13][10]+"");pos220.setText(A[13][11]+"");pos221.setText(A[13][12]+"");pos222.setText(A[13][13]+"");pos223.setText(A[13][14]+"");pos224.setText(A[13][15]+"");
+        pos225.setText(A[14][0]+""); pos226.setText(A[14][1]+""); pos227.setText(A[14][2]+"");pos228.setText(A[14][3]+"");pos229.setText(A[14][4]+"");pos230.setText(A[14][5]+"");pos231.setText(A[14][6]+"");pos232.setText(A[14][7]+"");pos233.setText(A[14][8]+"");pos234.setText(A[14][9]+"");pos235.setText(A[14][10]+"");pos236.setText(A[14][11]+"");pos237.setText(A[14][12]+"");pos238.setText(A[14][13]+"");pos239.setText(A[14][14]+"");pos240.setText(A[14][15]+"");
+        pos241.setText(A[15][0]+""); pos242.setText(A[15][1]+""); pos243.setText(A[15][2]+"");pos244.setText(A[15][3]+"");pos245.setText(A[15][4]+"");pos246.setText(A[15][5]+"");pos247.setText(A[15][6]+"");pos248.setText(A[15][7]+"");pos249.setText(A[15][8]+"");pos250.setText(A[15][9]+"");pos251.setText(A[15][10]+"");pos252.setText(A[15][11]+"");pos253.setText(A[15][12]+"");pos254.setText(A[15][13]+"");pos255.setText(A[15][14]+"");pos256.setText(A[15][15]+"");
               
         
     }//GEN-LAST:event_ResolverActionPerformed
@@ -4655,6 +4672,12 @@ protected JOptionPane mensaje=new JOptionPane();
         // TODO add your handling code here:
     }//GEN-LAST:event_pos11ActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        dispose();
+        Conector s= new Conector();
+        s.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -4693,6 +4716,7 @@ protected JOptionPane mensaje=new JOptionPane();
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Limpiar;
     private javax.swing.JButton Resolver;
+    private javax.swing.JButton jButton1;
     private javax.swing.JTextField pos1;
     private javax.swing.JTextField pos10;
     private javax.swing.JTextField pos100;

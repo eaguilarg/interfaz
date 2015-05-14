@@ -80,17 +80,22 @@ public class Conector extends javax.swing.JFrame {
         });
 
         jButton3.setText("16X16");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Desktop\\logo.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfaz\\src\\sudoku\\logo.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Desktop\\sudoku2x2.gif")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfaz\\src\\sudoku\\sd4.png")); // NOI18N
         jLabel1.setText("jLabel1");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Desktop\\abcom.sudoku-ico.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfaz\\src\\sudoku\\sd16.jpg")); // NOI18N
         jLabel3.setText("jLabel3");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Desktop\\sudoku-by-l2g-20050714.thumbnail.jpg")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfaz\\src\\sudoku\\sd9.jpg")); // NOI18N
         jLabel4.setText("jLabel4");
 
         textField1.setText("    Eliga tamaño del Sudoku");
@@ -101,10 +106,10 @@ public class Conector extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(42, 42, 42)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(10, 10, 10)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE))
                     .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(57, 57, 57)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -117,12 +122,14 @@ public class Conector extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(21, 21, 21)
                                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(55, 55, 55)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(55, 55, 55)
+                                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(27, 27, 27)))))
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -130,9 +137,9 @@ public class Conector extends javax.swing.JFrame {
                         .addGap(23, 23, 23)
                         .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 616, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(84, 84, 84)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(28, Short.MAX_VALUE))
+                        .addGap(129, 129, 129)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 401, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -147,7 +154,7 @@ public class Conector extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabel3))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -157,7 +164,7 @@ public class Conector extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel4)
                             .addComponent(jLabel1))))
-                .addContainerGap(16, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -174,6 +181,12 @@ public class Conector extends javax.swing.JFrame {
         s.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+       Sudoku16 s=new Sudoku16();
+       s.setVisible(true);
+       dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments

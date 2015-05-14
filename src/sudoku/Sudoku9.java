@@ -115,6 +115,7 @@ public class Sudoku9 extends javax.swing.JFrame {
         pos50 = new javax.swing.JTextField();
         pos51 = new javax.swing.JTextField();
         pos47 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 125, 0));
@@ -760,6 +761,13 @@ public class Sudoku9 extends javax.swing.JFrame {
         pos47.setCaretColor(new java.awt.Color(255, 255, 255));
         pos47.setMaximumSize(new java.awt.Dimension(1, 1));
 
+        jButton1.setText("Regresar a menu");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -933,9 +941,10 @@ public class Sudoku9 extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(pos18, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 74, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Resolver, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Limpiar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Resolver, javax.swing.GroupLayout.DEFAULT_SIZE, 141, Short.MAX_VALUE)
+                            .addComponent(Limpiar, javax.swing.GroupLayout.DEFAULT_SIZE, 141, Short.MAX_VALUE)
+                            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -962,7 +971,8 @@ public class Sudoku9 extends javax.swing.JFrame {
                     .addComponent(pos15, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(pos16, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(pos17, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pos18, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pos18, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(pos19, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1198,7 +1208,10 @@ protected JOptionPane mensaje=new JOptionPane();
         {Integer.parseInt(pos73.getText()), Integer.parseInt(pos74.getText()), Integer.parseInt(pos75.getText()), Integer.parseInt(pos76.getText()), Integer.parseInt(pos77.getText()), Integer.parseInt(pos78.getText()), Integer.parseInt(pos79.getText()), Integer.parseInt(pos80.getText()), Integer.parseInt(pos81.getText())},
       };
  }catch(NumberFormatException e){
-     mensaje.showMessageDialog(Resolver,"Error no insegrar texto",null,mensaje.ERROR_MESSAGE);
+     mensaje.showMessageDialog(Resolver,"Error no ingresar texto o dejar espacios en blanco",null,mensaje.ERROR_MESSAGE);
+      Sudoku9 x=new Sudoku9();
+     x.setVisible(true);
+     dispose();
  }
  int [][]A={
           
@@ -1214,8 +1227,12 @@ protected JOptionPane mensaje=new JOptionPane();
       };
  
  
-     if(s.ValidaInicio(A)==false)
+     if(s.ValidaInicio(A)==false){
           mensaje.showMessageDialog(Resolver,"Error. Ponga números dentro de rango.",null,mensaje.ERROR_MESSAGE);
+        Sudoku9 x=new Sudoku9();
+        x.setVisible(true);
+        dispose();
+     }
      else
           
       s.llena(A, 0, 0, 1);
@@ -1304,6 +1321,12 @@ protected JOptionPane mensaje=new JOptionPane();
             
     }//GEN-LAST:event_ResolverActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        dispose();
+        Conector s= new Conector();
+        s.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1341,6 +1364,7 @@ protected JOptionPane mensaje=new JOptionPane();
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Limpiar;
     private javax.swing.JButton Resolver;
+    private javax.swing.JButton jButton1;
     private javax.swing.JTextField pos1;
     private javax.swing.JTextField pos10;
     private javax.swing.JTextField pos11;

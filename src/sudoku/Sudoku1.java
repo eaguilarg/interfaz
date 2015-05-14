@@ -181,13 +181,11 @@ public boolean buscaStrings(int [][]matrix, int n){//codigo ascii 48-57
 
     }
     
-   /* public boolean Cronometro(){
-        System.currentTimeMillis();
-    }
-*/
+   
     public static void main(String args[]) {
         Sudoku1 p = new Sudoku1();
-        int[][] c = {
+        int[][] c = new int [16][16]; 
+                /*{
             {0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -197,9 +195,9 @@ public boolean buscaStrings(int [][]matrix, int n){//codigo ascii 48-57
             {0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0},};
-       
+       */
 
-       System.out.println(System.currentTimeMillis()/1000.0);
+       
        p.llena(c, 0, 0, 1);
         p.imprimeMatriz(c);
         

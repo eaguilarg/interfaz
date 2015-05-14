@@ -85,7 +85,7 @@ public boolean buscaStrings(int [][]matrix, int n){//codigo ascii 48-57
             return false;
         }
         for (int i = 0; i < A[0].length; i++) {//fila
-            if (val == A[x][i] && i!=y) {//
+            if (val == A[x][i] && i!=y) {
                 resp = false;
                 break;
             }
@@ -99,7 +99,7 @@ public boolean buscaStrings(int [][]matrix, int n){//codigo ascii 48-57
         for (int a = inicioX; a < inicioX + (tam); a++)//cuadrante
         {
             for (int b = inicioY; b < inicioY + (tam); b++) {
-                if (val == A[a][b] && a!=a && b!=b) {
+                if (val == A[a][b] && a!=x && b!=y) {
                     resp = false;
                     break;
                 }
@@ -137,6 +137,9 @@ public boolean buscaStrings(int [][]matrix, int n){//codigo ascii 48-57
 
     public boolean llena(int[][] A, int x, int y, int val) {
         int xAnt = x, yAnt = y;
+        int n=n++;
+        if(n==1000000)
+            throw new Unchecked("Sudoku demasiado dificil");
         if(val>A.length)
             return false;
         
@@ -186,7 +189,7 @@ public boolean buscaStrings(int [][]matrix, int n){//codigo ascii 48-57
         Sudoku1 p = new Sudoku1();
         int[][] c = new int [16][16]; 
                 /*{
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0},                   
             {0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0},

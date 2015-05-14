@@ -86,16 +86,16 @@ public class Conector extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfaz\\src\\sudoku\\logo.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfa\\src\\sudoku\\logo.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfaz\\src\\sudoku\\sd4.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfa\\src\\sudoku\\sd4.png")); // NOI18N
         jLabel1.setText("jLabel1");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfaz\\src\\sudoku\\sd16.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfa\\src\\sudoku\\sd16.jpg")); // NOI18N
         jLabel3.setText("jLabel3");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfaz\\src\\sudoku\\sd9.jpg")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\EAGUILARG\\Documents\\NetBeansProjects\\interfa\\src\\sudoku\\sd9.jpg")); // NOI18N
         jLabel4.setText("jLabel4");
 
         textField1.setText("    Eliga tamaño del Sudoku");
